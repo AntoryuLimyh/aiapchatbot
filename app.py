@@ -3,17 +3,10 @@ import os
 os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
 
 from chat import get_response
-from gtts import gTTS
 
 
 app = Flask(__name__)
 language = 'en'
-
-
-def gtts_speech(response):
-   myobj = gTTS(text=response, lang=language, slow=True, tld='com.sg')
-   myobj.save("welcome.mp3")
-   os.system("mpg321 welcome.mp3")
 
 
 @app.get("/")
@@ -27,7 +20,6 @@ def predict():
    
     response = get_response(text)
     message = {"answer": response}
-    gtts_speech(response)
     return jsonify(message)
 
 
