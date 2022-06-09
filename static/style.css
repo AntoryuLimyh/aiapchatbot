@@ -4,6 +4,12 @@
     padding: 0;
 }
 
+h3{
+    padding: 50px;
+    margin: 10px;
+}
+
+
 body {
     font-family: roboto,'Nunito', sans-serif;
     font-weight: 400;

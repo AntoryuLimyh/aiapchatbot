@@ -95,6 +95,17 @@
       ]
     },
     {
+      "tag": "certification",
+      "patterns": [
+        "Will I get a certificate upon completion of AIAP?",
+        "What will I get at the end of the course?",
+        "Is there any cerification issued?"
+      ],
+      "responses": [
+        "Apprentices who have successfully completed AIAP will receive a certificate from AI Singapore."
+      ]
+    },
+    {
       "tag": "outcome",
       "patterns": [
         "What is the training outcome of AIAP?",

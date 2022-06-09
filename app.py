@@ -1,17 +1,19 @@
 from flask import Flask, render_template, request, jsonify
+import os
+os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
 
 from chat import get_response
-#from gtts import gTTS
-#import os
+from gtts import gTTS
+
 
 app = Flask(__name__)
 language = 'en'
 
 
-# def gtts_speech(response):
-#     myobj = gTTS(text=response, lang=language, slow=True, tld='com.sg')
-#     myobj.save("welcome.mp3")
-#     os.system("mpg321 welcome.mp3")
+def gtts_speech(response):
+   myobj = gTTS(text=response, lang=language, slow=True, tld='com.sg')
+   myobj.save("welcome.mp3")
+   os.system("mpg321 welcome.mp3")
 
 
 @app.get("/")
@@ -22,10 +24,10 @@ def index_get():
 @app.post("/predict")
 def predict():
     text = request.get_json().get("message")
-    # TODO: check if text is valid
+   
     response = get_response(text)
     message = {"answer": response}
-    #gtts_speech(response)
+    gtts_speech(response)
     return jsonify(message)
 
 
