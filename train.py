@@ -6,8 +6,11 @@ import torch
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
 
-from nltk_utils import bag_of_words, tokenize, stem
+from nltk_utils import bag_of_words, tokenize, stem,lemmat
 from model import NeuralNet
+
+import nltk
+from nltk.corpus import stopwords
 
 with open('intents.json', 'r') as f:
     intents = json.load(f)
@@ -28,9 +31,11 @@ for intent in intents['intents']:
         # add to xy pair
         xy.append((w, tag))
 
-# stem and lower each word
+# remove with punctuation and stopwords
 ignore_words = ['?', '.', '!']
-all_words = [stem(w) for w in all_words if w not in ignore_words]
+stoplist = stopwords.words('english') + ignore_words
+
+all_words = [stem(w) for w in all_words if w not in stoplist]
 # remove duplicates and sort
 all_words = sorted(set(all_words))
 tags = sorted(set(tags))

@@ -3,6 +3,8 @@ import nltk
 # nltk.download('punkt')
 from nltk.stem.porter import PorterStemmer
 stemmer = PorterStemmer()
+from nltk.stem import WordNetLemmatizer
+lemmatizer = WordNetLemmatizer()
 
 
 def tokenize(sentence):
@@ -23,6 +25,10 @@ def stem(word):
     """
     return stemmer.stem(word.lower())
 
+def lemmat(word):
+    
+    return lemmatizer.lemmatize(word.lower())
+    
 
 def bag_of_words(tokenized_sentence, words):
     """
@@ -34,7 +40,7 @@ def bag_of_words(tokenized_sentence, words):
     bog   = [  0 ,    1 ,    0 ,   1 ,    0 ,    0 ,      0]
     """
     # stem each word
-    sentence_words = [stem(word) for word in tokenized_sentence]
+    sentence_words = [lemmat(word) for word in tokenized_sentence]
     # initialize bag with 0 for each word
     bag = np.zeros(len(words), dtype=np.float32)
     for idx, w in enumerate(words):

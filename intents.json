@@ -32,43 +32,6 @@
       "responses": ["Happy to help!", "Any time!", "My pleasure"]
     },
     {
-      "tag": "items",
-      "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
-      ],
-      "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
-      ]
-    },
-    {
-      "tag": "payments",
-      "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
-      ],
-      "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
-      ]
-    },
-    {
-      "tag": "delivery",
-      "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
-      ],
-      "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
-      ]
-    },
-    {
       "tag": "funny",
       "patterns": [
         "Tell me a joke!",
@@ -99,10 +62,265 @@
       "patterns": [
         "Will I get a certificate upon completion of AIAP?",
         "What will I get at the end of the course?",
-        "Is there any cerification issued?"
+        "Is there any cerification issued?",
+        "Who is providing us with the cerification?"
       ],
       "responses": [
         "Apprentices who have successfully completed AIAP will receive a certificate from AI Singapore."
+      ]
+    },
+    {
+      "tag": "laptop",
+      "patterns": [
+        "What are the laptop requirements for AIAP?",
+        "Does AI Singapore provide us with a laptop? ",
+        "What do I need to have for my laptop?",
+        "What laptop do I need?",
+        "How do I know if my laptop fit the requirement need for the AIAP program?"
+      ],
+      "responses": [
+         "As you are required to use your own laptop for the AI Apprenticeship Programme (AIAP), we recommend that your laptop meets the minimum requirements as listed as per the provided link for more details <br><br> <a href='https://aisingapore.org/kb/what-are-the-laptop-requirements-for-the-programme/'>laptop-requirements</a>"
+      ]
+    },
+    {
+      "tag": "intake",
+      "patterns": [
+        "When is the next intake?",
+        "How many enrollment are there in a year?",
+        "When does the program commence?",
+        "How many intake are there in year?",
+        "What is the timeline to the next intake?"
+      ],
+      "responses": [
+         "Do refer to link on AIAP Recruitment & Commencement Schedule below :<br><br><a href='https://aisingapore.org/kb/will-there-be-a-next-round-of-application-4/'> Recruitment & Commencement Schedule</a>"
+      ]
+    },
+    {
+      "tag": "Fulltime",
+      "patterns": [
+        "Do I have to resign from my current job to join the AIAP?",
+        "Why do I have to resign as founder or director of my own company?",
+        "Is AIAP a full time program?",
+        "Can I do the program on part-time basis?",
+        "Why it is to be full time committment?",
+        "Why do I have to resign from my role?"
+      ],
+      "responses": [
+         "AIAP is a FULL-TIME programme where you will undergo training at an intensive pace over 9/12 months at AI Singapore's office / any appropriate location. <br><br> Due to our sponsorship requirements, you are not allowed to take no-pay leave from your current full-time job to attend the programme. In addition, you should not be owner/founder of a company. Apprentices work on industry projects from companies and NDAs have to be signed. Hence during the programme period, apprentices should not be associated with any company."
+      ]
+    },
+    {
+      "tag": "Salary",
+      "patterns": [
+        "What is the monthly training allowance value?",
+        "Do I get paid for doing the program?",
+        "How much is the allowance?",
+        "How much is the pay?",
+        "What is the range of the allowance like?",
+        "What is the range of the pay like?",
+        "Will there be any allowance/pay given while doing the program?"
+      ],
+      "responses": [
+         "The monthly training allowance is between SGD 3500 to SGD 5500 (dependent on no. of years of working experience and qualification)."
+      ]
+    },
+    {
+      "tag": "Project",
+      "patterns": [
+        "How are projects assigned to AIAP apprentices?",
+        "What project will I get to do?",
+        "What is the project allocation criteria?",
+        "Do we/I get to choose my own project?",
+        "Who will decide on the project allocation?"
+      ],
+      "responses": [
+         "Apprentices will be allowed to indicate their preferences. The mentors will assign the projects considering the apprentices’ preferences and their skill sets to ensure a good fit for the apprentices and the projects. "
+      ]
+    },
+    {
+      "tag": "apprenticeship_period",
+      "patterns": [
+        "What is the difference between the 9 and 12 months of AIAP apprenticeship period?",
+        "What is the duration of the program?  ",
+        "What will we be doing in the extra 3 months?",
+        "What is the program duration?",
+        "How long is the program?"
+      ],
+      "responses": [
+         "Do refer the the link below for the details : <br><br> <a href='https://aisingapore.org/kb/what-is-the-difference-between-the-9-and-12-months-of-aiap-apprenticeship-period/'> Apprencticeship Period</a>"
+      ]
+    },
+    {
+      "tag":"topics",
+      "patterns": [
+        "What will be covered in AIAP ?",
+        "What kind of training do we get",
+        "Topics that will be studied?",
+        "What do i get to learn?",
+        "what is covered in the Aiap?",
+        "what do we get to learn in aiap",
+        "what AI topics will i get to learn",
+        "Machine learning topics that i will be studying"
+  
+      ],
+      "responses": [
+        "In the first 2 months of the AIAP programme (Deep-skilling phase), apprentices will broaden and deepen their knowledge in core AI/ML topics including Neural Networks, Computer Vision, Natural Language Processing and MLOps.<br><br><a href='https://aisingapore.org/kb/what-will-be-covered-in-the-aiap/'> More on What you will learn in AIAP </a>"
+      ]
+    },
+    {
+      "tag":"jobs",
+      "patterns": [
+        "Will I get a job after the AIAP?",
+        "Will there be job placement ?",
+        "will AI Singapore hire me ?",
+        "Do i get a job after the training?"
+      ],
+      "responses": [
+        "There will be no placement of jobs but there will career development support as well as sharing of job opportunities with our industry partners.<br><br><a href='https://aisingapore.org/kb/will-i-get-a-job-after-the-programme/'>Regarding job placements</a>"
+      ]
+    },
+    {
+      "tag":"techstack",
+      "patterns": [
+        "What AI tools and frameworks would the AIAP apprentices know?",
+        "What techstack do i get to learn ?",
+        "what are the stack that i get to pick up ?",
+        "what tools are use in AI development",
+        "what kind of framework and tools that we be using?",
+        "techstack , framework and tools that i get to learn"
+      ],
+      "responses": [
+        "Most of the projects done by the AIAP apprentices would be built in Python and using frameworks such as Tensorflow/Keras, PyTorch.<br><br><a href='https://aisingapore.org/kb/what-ai-tools-and-frameworks-would-the-apprentices-know/'>More on Techstack and framework</a>"
+      ]
+    },
+    {
+      "tag":"guarantors",
+      "patterns": [
+        "Why do I need to have 2 guarantors when I accept the AIAP admission offer?",
+        "Do we need guarantors for the aiap course?",
+        "How many guarantors do i need?",
+        "Why the need for guarantors?",
+        "Are guarantors needed to sign up for the course"
+      ],
+      "responses": [
+        "As this is a fully sponsored programme, AI Singapore requires all apprentices to have 2 working Singaporeans or Singapore Permanent Residents with minimum annual income of $30,000 as guarantors.<br><br><a href='https://aisingapore.org/kb/is-a-guarantor-needed-for-this-programme/'>More on guarantors </a>"
+      ]
+    },
+    {
+      "tag":"Assessment1",
+      "patterns": [
+        "How is Assessment 1 conducted?",
+        "What is Assessment 1 about? ",
+        "What can i expect to be tested on for Assessment 1 ?",
+        "What will we be tested on for assessment 1?",
+        "What can i expect to be assess on for assignment 1"
+      ],
+      "responses": [
+        "Assessment 1 is a 60 minutes online assessment and the minimum passing score is 72. It consists of two parts: Coding challenges and Multiple choice questions.<br><br><a href='https://aisingapore.org/kb/how-is-assessment-1-conducted/'>More on Assessment1 </a>"
+      ]
+    },
+    {
+      "tag":"Assessment2",
+      "patterns": [
+        "How is Assessment 2 conducted?",
+        "What is Assessment 2 about? ",
+        "What can i expect to be tested on for Assessment 2 ?",
+        "What will we be tested on for assessment 2?",
+        "What can i expect to be assess on for assignment 2",
+        "Assignment 2 is ?"
+      ],
+      "responses": [
+        "Candidates who have passed Assessment 1 will be invited to Assessment 2 via their registered email.<br><br><a href='https://aisingapore.org/kb/how-is-assessment-2-conducted/'>More on Assessment2 </a>"
+      ]
+    },
+    {
+      "tag":"Assessment3",
+      "patterns": [
+        "How is Assessment 3 conducted?",
+        "What is Assessment 3 about? ",
+        "What can i expect to be tested on for Assessment 3 ?",
+        "What will we be tested on for assessment 3?",
+        "What can i expect to be assess on for assignment 3",
+        "Assignment 3 is ?"
+      ],
+      "responses": [
+        "Candidates who have passed Assessment 3 will be invited to Assessment 3 via their registered email.<br><br><a href='https://aisingapore.org/kb/how-is-assessment-3-conducted/'>More on Assessment3 </a>"
+      ]
+    },
+    {
+      "tag": "candidates",
+      "patterns": [
+        "Who are you looking for",
+        "What kind of candidate are you seeking",
+        "What is the profile of people you want",
+        "Who is the ideal candidate"
+      ],
+      "responses": [
+        "We are looking for candidates who possess a keen interest to pursue a career in the area of machine learning and data science.<br><br><a href='https://aisingapore.org/kb/what-type-of-candidates-are-you-looking-for/' target='_blank'>Who we are seeking</a>"
+      ]
+    },
+    {
+      "tag": "allowance",
+      "patterns": [
+        "How much is the allowance",
+        "What is the amount of pay",
+        "Is the allowance negotiable",
+        "Is there a salary",
+        "How do I get paid"
+      ],
+      "responses": [
+        "The monthly training allowance value is calculated based on relevant experiences and educational qualifications listed in your curricula vitae (CV) submitted when you apply.<br><br><a href='https://aisingapore.org/kb/how-is-the-stipend-determined/' target='_blank'>Monthly allowance</a>"
+      ]
+    },
+    {
+      "tag": "cpf",
+      "patterns": [
+        "Is there a cpf component",
+        "Will there be cpf",
+        "Is there cpf contribution",
+        "Is cpf deducted from the allowance"
+      ],
+      "responses": [
+        "There is no CPF contribution as you are not receiving a salary but a training allowance."
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "How much are the programme fees",
+        "What do I need to pay",
+        "Is there an application fee",
+        "Is the programme free",
+        "Can I use my SkillsFuture credits"
+      ],
+      "responses": [
+        "There is no application fee.<br><br>Successful candidates have to pay a miscellaneous fee of $267.50 upon acceptance of our offer.<br><br><a href='https://aisingapore.org/kb/do-i-have-to-pay/' target='_blank'>Fees</a>"
+      ]
+    },
+    {
+      "tag": "prepare",
+      "patterns": [
+        "Is there a guide for me prepare for the programme",
+        "How can I test my readiness",
+        "Are there exams I can take",
+        "What courses can take to increase my chances of success",
+        "What are the skills I should learn before I join the programme"
+      ],
+      "responses": [
+        "Check out the following materials:<br><br>1. <a href='https://aisingapore.org/2021/05/the-ai-apprenticeship-programme-aiap-field-guide/' target='_blank'>AIAP Field Guide</a><br><br>2. <a href='https://aisingapore.org/2021/01/aiap-technical-assessment/' target='_blank'>AIAP Assessment</a><br><br>to find out how you can prepare for the AIAP programme."
+      ]
+    },
+    {
+      "tag": "outcome",
+      "patterns": [
+        "What is the training outcome",
+        "What will I be equipped with at the end of the programme",
+        "What will I learn from the programme",
+        "What are the goals of the programme",
+        "What skills will I acquire"
+      ],
+      "responses": [
+        "Candidates should be equipped and be proficient in all or most of the following skills:<br><br>Data engineering<br>Model development<br>Software engineering<br>MLOps<br><br><a href='https://aisingapore.org/kb/what-is-the-outcome-of-this-programme/' target='_blank'>Training outcome</a>"
       ]
     },
     {
@@ -118,6 +336,41 @@
       "responses": [
         "No fees for registration. Successful candidates have to pay a miscellaneous fee of $267.50 upon acceptance of our offer."
       ]
-    }
+    },
+    {
+      "tag": "dropout",
+      "patterns": [
+        "What if I decided to drop out of AIAP?",
+        "Any compensation if i decided quit the course",
+        "Can i quit the AIAP programme halfway",
+        "Do i need to pay back aiap if i dropout of the course",
+        "Can i quit the course if i am not satisfied with the outcome",
+        "Can i leave the course halfway?",
+        "What if i quit halfway through the course",
+        "What happens if i dropout of the course"
+      ],
+      "responses": [
+        "As AIAP is a fully sponsored programme, if you drop out of the programme, you will have to reimburse AI Singapore for the monthly training allowance that has been paid out to you and the programme fees."
+      ]
+    },
+    {
+      "tag": "roles",
+      "patterns": [
+        "What are the AI jobs and roles I can consider after completing AIAP?",
+        "What job can i apply for after completing AIAP?",
+        "What roles can i be considered for after the course?",
+        "What positions can i apply for once i completed the course?",
+        "what kind of jobs can i look for after the course?",
+        "What type of position can i find in the AI industry after completing the course?",
+        "AI positions that are suitable for me once i completed the course?",
+        "What kind of jobs can i get",
+        "who will hire me ?"
+      ],
+      "responses": [
+        "AI job roles relevant may include AI Engineer, ML Engineer, AI Dev Ops, AI Developer or AI Consultant."
+      ]
+    }  
+
+
   ]
 }

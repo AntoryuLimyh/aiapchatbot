@@ -4,6 +4,9 @@ from gtts import gTTS
 import os
 import torch
 
+import os
+os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
+
 
 from model import NeuralNet
 from nltk_utils import bag_of_words, tokenize
@@ -52,20 +55,3 @@ def get_response(msg):
     return "I do not understand..."
 
 
-# def gtts_speech(response):
-#     myobj = gTTS(text=response, lang=language, slow=False, tld='com.sg')
-#     myobj.save("welcome.mp3")
-#     os.system("mpg321 welcome.mp3")
-
-
-# if __name__ == "__main__":
-#     print("Let's chat! (type 'quit' to exit)")
-#     while True:
-#         # sentence = "do you use credit cards?"
-#         sentence = input("You: ")
-#         if sentence == "quit":
-#             break
-
-#         resp = get_response(sentence)
-#         gtts_speech(resp)
-#         print(resp)
