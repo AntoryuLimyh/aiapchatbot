@@ -1,18 +1,16 @@
 import random
 import json
-from gtts import gTTS
 import os
 import torch
+import numpy as np
+from pretrained import chat
 
-import os
 os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
 
 
 from model import NeuralNet
 from nltk_utils import bag_of_words, tokenize
 
-#device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-#device = 'cpu'
 
 with open('intents.json', 'r') as json_data:
     intents = json.load(json_data)
@@ -52,6 +50,6 @@ def get_response(msg):
             if tag == intent["tag"]:
                 return random.choice(intent['responses'])
 
-    return "I do not understand..."
+    return chat(msg)
 
 
