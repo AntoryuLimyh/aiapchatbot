@@ -50,6 +50,7 @@ def get_response(msg):
             if tag == intent["tag"]:
                 return random.choice(intent['responses'])
 
-    return chat(msg)
+    return "I do not understand...."
+    #return chat(msg)
 
 
