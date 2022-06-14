@@ -18,6 +18,22 @@
       ]
     },
     {
+      "tag": "cute",
+      "patterns": ["Am i handsome",
+                  "I am pretty",
+                  "Tell me i am good looking",
+                  "Am i beautiful",
+                  "I am the prettiest girl",
+                  "I am cute",
+                  "I am very handsome"
+                ],
+      "responses": [
+        "You are only cute",
+        "Find a mirror",
+        "......."
+      ]
+    },
+    {
       "tag": "goodbye",
       "patterns": ["Bye", "See you later", "Goodbye"],
       "responses": [
@@ -32,6 +48,43 @@
       "responses": ["Happy to help!", "Any time!", "My pleasure"]
     },
     {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
       "tag": "funny",
       "patterns": [
         "Tell me a joke!",
@@ -44,17 +97,32 @@
       ]
     },
     {
-      "tag": "fees",
+      "tag": "AISG",
       "patterns": [
-        "What are the fees I have to pay for AIAP?!",
-        "How much to pay for the course?",
-        "Cost of signing up the programme?",
-        "Any registration fees?",
-        "Cost of registration",
-        "Fees to sign up for the course"
+        "What is AISG?",
+        "What does AISG represent?",
+        "Role of AISG?",
+        "What is AI singapore",
+        "Who is AI singapore",
+        "What does AI singapore do?"
       ],
       "responses": [
-        "No fees for registration. Successful candidates have to pay a miscellaneous fee of $267.50 upon acceptance of our offer."
+        "AI Singapore (AISG) is a national AI programme launched by the National Research Foundation (NRF) to anchor deep national capabilities in Artificial Intelligence (AI) thereby creating social and economic impacts, grow the local talent, build an AI ecosystem, and put Singapore on the world map.",
+        "AISG is driven by a government-wide partnership comprising NRF, the Smart Nation and Digital Government Office (SNDGO), the Economic Development Board (EDB), the Infocomm Media Development Authority (IMDA), SGInnovate, and the Integrated Health Information Systems (IHiS)."
+      ]
+    },
+    {
+      "tag": "AIAP",
+      "patterns": [
+        "What is AIAP?",
+        "What does AIAP represent?",
+        "AIAP is about",
+        "what do AIAP do",
+        "is AIAP a course",
+        "AIAP is a job ?"
+      ],
+      "responses": [
+        "The AI Apprenticeship Programme (AIAP)® seeks to develop Singaporean AI talents and enhance career opportunities in AI-related roles. Apprentices will get to work on industry projects and deepen your skills not only in AI and machine learning (ML) but also in software engineering as you learn to deploy AI models into production."
       ]
     },
     {
@@ -63,7 +131,9 @@
         "Will I get a certificate upon completion of AIAP?",
         "What will I get at the end of the course?",
         "Is there any cerification issued?",
-        "Who is providing us with the cerification?"
+        "Who is providing us with the cerification?",
+        "will there be a certificate awarded?",
+        "Is there a certificate upon completion of the course?"
       ],
       "responses": [
         "Apprentices who have successfully completed AIAP will receive a certificate from AI Singapore."
@@ -89,7 +159,8 @@
         "How many enrollment are there in a year?",
         "When does the program commence?",
         "How many intake are there in year?",
-        "What is the timeline to the next intake?"
+        "What is the timeline to the next intake?",
+        "Next enrollment available?"
       ],
       "responses": [
          "Do refer to link on AIAP Recruitment & Commencement Schedule below :<br><br><a href='https://aisingapore.org/kb/will-there-be-a-next-round-of-application-4/'> Recruitment & Commencement Schedule</a>"
@@ -103,7 +174,11 @@
         "Is AIAP a full time program?",
         "Can I do the program on part-time basis?",
         "Why it is to be full time committment?",
-        "Why do I have to resign from my role?"
+        "Why do I have to resign from my role?",
+        "Do i need to resign from my job",
+        "Can i do it as a part time programme?",
+        "Why do i need to resign to join?",
+        "Can i do it on a part time basis?"
       ],
       "responses": [
          "AIAP is a FULL-TIME programme where you will undergo training at an intensive pace over 9/12 months at AI Singapore's office / any appropriate location. <br><br> Due to our sponsorship requirements, you are not allowed to take no-pay leave from your current full-time job to attend the programme. In addition, you should not be owner/founder of a company. Apprentices work on industry projects from companies and NDAs have to be signed. Hence during the programme period, apprentices should not be associated with any company."
@@ -130,8 +205,11 @@
         "How are projects assigned to AIAP apprentices?",
         "What project will I get to do?",
         "What is the project allocation criteria?",
-        "Do we/I get to choose my own project?",
-        "Who will decide on the project allocation?"
+        "Will I get to choose my own project?",
+        "Do we get to choose my own project?",
+        "Who will decide on the project allocation?",
+        "How are project allocated ?",
+        "Is the projects assigned by you?"
       ],
       "responses": [
          "Apprentices will be allowed to indicate their preferences. The mentors will assign the projects considering the apprentices’ preferences and their skill sets to ensure a good fit for the apprentices and the projects. "
@@ -144,7 +222,11 @@
         "What is the duration of the program?  ",
         "What will we be doing in the extra 3 months?",
         "What is the program duration?",
-        "How long is the program?"
+        "How long is the program?",
+        "What the length of the course?",
+        "How long is the course?",
+        "What is the timeline to complete the program",
+        "How long is the duration of the course?"
       ],
       "responses": [
          "Do refer the the link below for the details : <br><br> <a href='https://aisingapore.org/kb/what-is-the-difference-between-the-9-and-12-months-of-aiap-apprenticeship-period/'> Apprencticeship Period</a>"
@@ -160,8 +242,12 @@
         "what is covered in the Aiap?",
         "what do we get to learn in aiap",
         "what AI topics will i get to learn",
-        "Machine learning topics that i will be studying"
-  
+        "Machine learning topics that i will be studying",
+        "What skills will be taught?",
+        "what skills will be covered?",
+        "what will we learn?",
+        "Skills that we will be acquiring"
+
       ],
       "responses": [
         "In the first 2 months of the AIAP programme (Deep-skilling phase), apprentices will broaden and deepen their knowledge in core AI/ML topics including Neural Networks, Computer Vision, Natural Language Processing and MLOps.<br><br><a href='https://aisingapore.org/kb/what-will-be-covered-in-the-aiap/'> More on What you will learn in AIAP </a>"
@@ -172,8 +258,11 @@
       "patterns": [
         "Will I get a job after the AIAP?",
         "Will there be job placement ?",
-        "will AI Singapore hire me ?",
-        "Do i get a job after the training?"
+        "will AIAP hire me ?",
+        "Do i get a job after the training?",
+        "Will there be jobs available after the course?",
+        "Will there be hiring after the programme?",
+        "Do i get a job position after the course ?"
       ],
       "responses": [
         "There will be no placement of jobs but there will career development support as well as sharing of job opportunities with our industry partners.<br><br><a href='https://aisingapore.org/kb/will-i-get-a-job-after-the-programme/'>Regarding job placements</a>"
@@ -187,7 +276,15 @@
         "what are the stack that i get to pick up ?",
         "what tools are use in AI development",
         "what kind of framework and tools that we be using?",
-        "techstack , framework and tools that i get to learn"
+        "techstack that i get to learn",
+        "What framework will we learn",
+        "What tools will be be using",
+        "What stack will be use during the training",
+        "What are the techstack we get to work with",
+        "What tools will we use?",
+        "What stack we use for development?",
+        "What kind of tech stack will we work with?",
+        "techstack that i will get get expose to ?"
       ],
       "responses": [
         "Most of the projects done by the AIAP apprentices would be built in Python and using frameworks such as Tensorflow/Keras, PyTorch.<br><br><a href='https://aisingapore.org/kb/what-ai-tools-and-frameworks-would-the-apprentices-know/'>More on Techstack and framework</a>"
@@ -253,7 +350,12 @@
         "Who are you looking for",
         "What kind of candidate are you seeking",
         "What is the profile of people you want",
-        "Who is the ideal candidate"
+        "Who is the ideal candidate",
+        "Who can apply for aiap",
+        "What kind of person are you looking for?",
+        "Who should apply for aiap?",
+        "what kind of talent are you looking for ?",
+        "What are the qualities you are looking for ?"
       ],
       "responses": [
         "We are looking for candidates who possess a keen interest to pursue a career in the area of machine learning and data science.<br><br><a href='https://aisingapore.org/kb/what-type-of-candidates-are-you-looking-for/' target='_blank'>Who we are seeking</a>"
@@ -262,11 +364,11 @@
     {
       "tag": "allowance",
       "patterns": [
-        "How much is the allowance",
-        "What is the amount of pay",
-        "Is the allowance negotiable",
-        "Is there a salary",
-        "How do I get paid"
+        "How is the monthly training allowance determined?",
+        "How is the montly allowance calculated?",
+        "Do i get more allowance with experience?",
+        "Is there any structure to the allowance?",
+        "May i know how the allowance is determined?"
       ],
       "responses": [
         "The monthly training allowance value is calculated based on relevant experiences and educational qualifications listed in your curricula vitae (CV) submitted when you apply.<br><br><a href='https://aisingapore.org/kb/how-is-the-stipend-determined/' target='_blank'>Monthly allowance</a>"
@@ -275,10 +377,10 @@
     {
       "tag": "cpf",
       "patterns": [
-        "Is there a cpf component",
-        "Will there be cpf",
-        "Is there cpf contribution",
-        "Is cpf deducted from the allowance"
+        "Is there a cpf component?",
+        "Will there be cpf?",
+        "Is there cpf contribution?",
+        "Is cpf deducted from the allowance?"
       ],
       "responses": [
         "There is no CPF contribution as you are not receiving a salary but a training allowance."
@@ -289,9 +391,16 @@
       "patterns": [
         "How much are the programme fees",
         "What do I need to pay",
-        "Is there an application fee",
-        "Is the programme free",
-        "Can I use my SkillsFuture credits"
+        "Is there an application fees",
+        "Is there a programme fees",
+        "Do i need to pay anything for the course?",
+        "Are there any tuition fees",
+        "Is there any registration fees?",
+        "Any payments needed to apply for the course",
+        "Any fee that we need to pay?",
+        "Fee needed to pay for registration?",
+        "Any fees to sign up?",
+        "How much to pay for the course?"
       ],
       "responses": [
         "There is no application fee.<br><br>Successful candidates have to pay a miscellaneous fee of $267.50 upon acceptance of our offer.<br><br><a href='https://aisingapore.org/kb/do-i-have-to-pay/' target='_blank'>Fees</a>"
@@ -303,8 +412,16 @@
         "Is there a guide for me prepare for the programme",
         "How can I test my readiness",
         "Are there exams I can take",
+        "How can i prepare for the course",
         "What courses can take to increase my chances of success",
-        "What are the skills I should learn before I join the programme"
+        "What are the skills I should learn before I join the programme",
+        "What skill should i pick up for the course?",
+        "What should i do to prepare?",
+        "What resources are available for me to prepare?",
+        "Any materials to help me prepare for the programme",
+        "Any resources to help me ?",
+        "Is there any guide to help me ?",
+        "Can direct me to any material to learn?"
       ],
       "responses": [
         "Check out the following materials:<br><br>1. <a href='https://aisingapore.org/2021/05/the-ai-apprenticeship-programme-aiap-field-guide/' target='_blank'>AIAP Field Guide</a><br><br>2. <a href='https://aisingapore.org/2021/01/aiap-technical-assessment/' target='_blank'>AIAP Assessment</a><br><br>to find out how you can prepare for the AIAP programme."
@@ -317,24 +434,15 @@
         "What will I be equipped with at the end of the programme",
         "What will I learn from the programme",
         "What are the goals of the programme",
-        "What skills will I acquire"
+        "What skills will I acquire",
+        "What is the outcome of the course",
+        "What do i get to learn ?",
+        "What skillsets will i get to develop",
+        "What competencies will i developed?",
+        "Skills that i be equipped with at end of the course"
       ],
       "responses": [
         "Candidates should be equipped and be proficient in all or most of the following skills:<br><br>Data engineering<br>Model development<br>Software engineering<br>MLOps<br><br><a href='https://aisingapore.org/kb/what-is-the-outcome-of-this-programme/' target='_blank'>Training outcome</a>"
-      ]
-    },
-    {
-      "tag": "outcome",
-      "patterns": [
-        "What is the training outcome of AIAP?",
-        "What can i expect from the course?",
-        "Cost of signing up the programme?",
-        "Any registration fees?",
-        "Cost of registration",
-        "Fees to sign up for the course"
-      ],
-      "responses": [
-        "No fees for registration. Successful candidates have to pay a miscellaneous fee of $267.50 upon acceptance of our offer."
       ]
     },
     {
@@ -347,7 +455,11 @@
         "Can i quit the course if i am not satisfied with the outcome",
         "Can i leave the course halfway?",
         "What if i quit halfway through the course",
-        "What happens if i dropout of the course"
+        "What happens if i dropout of the course",
+        "Can i dropout of the course anytime",
+        "What if i want to leave the course",
+        "Can i leave in the middle of the course?",
+        "what if i drop out in mid of the course?"
       ],
       "responses": [
         "As AIAP is a fully sponsored programme, if you drop out of the programme, you will have to reimburse AI Singapore for the monthly training allowance that has been paid out to you and the programme fees."
@@ -365,13 +477,15 @@
         "AI positions that are suitable for me once i completed the course?",
         "What kind of jobs can i get",
         "who will hire me ?",
-        "what roles are suitable for me after the course"
+        "What kind of roles can i look for?",
+        "what are the job type that i can search for",
+        "Job that i can apply for ?",
+        "Type of AI roles that i can be considered for?"
       ],
       "responses": [
         "AI job roles relevant may include AI Engineer, ML Engineer, AI Dev Ops, AI Developer or AI Consultant."
       ]
-    }  
-
+    }
 
   ]
 }
